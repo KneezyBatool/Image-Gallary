@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filterable Image Gallary</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        // Fallback if jQuery CDN fails to load
+        window.jQuery || document.write('<script src="jquery.min.js"><\/script>')
+    </script>
+    <!-- Your custom script -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <section id="Project">
+        <div class="container">
+            <!-- MENUE LINKS -->
+            <div class="items-links">
+                <span class="item-link menu-active" data-name="all" >All</span>
+                <span class="item-link" data-name="website">Gaon</span>
+                <span class="item-link" data-name="android">Abaya</span>
+                <span class="item-link" data-name="ios">Stollar</span>
+            </div>
+            <!-- fillter image -->
+             <div class="gallary">
+                <div class="project-img" data-name="website">
+                    <img src="imgs/abaya-1.webp" alt="">
+                    <div class="ovely">
+                        <h4>Gaon</h4>
+                        <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img"  data-name="ios">
+                    <img src="imgs/stolar-4.webp" alt="">
+                    <div class="ovely">
+                        <h4>Stollar</h4>
+                        <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img" data-name="android">
+                    <img src="imgs/irani-1.jpg" alt="">
+                    <div class="ovely">
+                        <h4>Abaya</h4>
+                        <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img" data-name="website">
+                    <img src="imgs/abaya-2.jpg" alt="">
+                    <div class="ovely">
+                        <h4>Gaon</h4>
+                        <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img"  data-name="ios">
+                    <img src="imgs/stolar-5.webp" alt="">
+                    <div class="ovely">
+                        <h4>Stollar</h4>
+                        <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="project-img" data-name="android">
+                    <img src="imgs/irani-7.jpg" alt="">
+                    <div class="ovely">
+                        <h4>Abaya</h4>
+                        <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img"  data-name="ios">
+                    <img src="imgs/stolar-1.webp" alt="">
+                    <div class="ovely">
+                        <h4>Stollar</h4>
+                        <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img"  data-name="ios">
+                    <img src="imgs/stolar-6.jpg" alt="">
+                    <div class="ovely">
+                        <h4>Stollar</h4>
+                        <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img" data-name="android">
+                    <img src="imgs/irani-8.jpg" alt="">
+                    <div class="ovely">
+                        <h4>Abaya</h4>
+                        <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img" data-name="website">
+                    <img src="imgs/abaya-3.jpg" alt="">
+                    <div class="ovely">
+                        <h4>Gaon</h4>
+                        <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-img"  data-name="ios">
+                    <img src="imgs/stolar-7.jpeg" alt="">
+                    <div class="ovely">
+                        <h4>Stollar</h4>
+                        <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img" data-name="android">
+                    <img src="imgs/irani-9.webp" alt="">
+                    <div class="ovely">
+                        <h4>Abaya</h4>
+                        <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img"  data-name="ios">
+                    <img src="imgs/stolar-2.jpg" alt="">
+                    <div class="ovely">
+                        <h4>Stollar</h4>
+                        <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-img" data-name="website">
+                    <img src="imgs/abaya-6.jpg" alt="">
+                    <div class="ovely">
+                        <h4>Gaon</h4>
+                        <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img"  data-name="ios">
+                    <img src="imgs/stolar-8.jpeg" alt="">
+                    <div class="ovely">
+                        <h4>Stollar</h4>
+                        <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="project-img" data-name="website">
+                    <img src="imgs/abaya-4.webp" alt="">
+                    <div class="ovely">
+                        <h4>Gaon</h4>
+                        <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="project-img"  data-name="ios">
+                    <img src="imgs/stolar-9.webp" alt="">
+                    <div class="ovely">
+                        <h4>Stollar</h4>
+                        <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img" data-name="website">
+                    <img src="imgs/abaya-7.jpg" alt="">
+                    <div class="ovely">
+                        <h4>Gaon</h4>
+                        <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img"  data-name="ios">
+                    <img src="imgs/stolar-3.jpg" alt="">
+                    <div class="ovely">
+                        <h4>Stollar</h4>
+                        <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img" data-name="android">
+                    <img src="imgs/irani-2.jpg" alt="">
+                    <div class="ovely">
+                        <h4>Gaon</h4>
+                        <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img" data-name="website">
+                    <img src="imgs/abaya-8.jpg" alt="">
+                    <div class="ovely">
+                        <h4>Gaon</h4>
+                        <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img" data-name="android">
+                    <img src="imgs/irani-4.jpg" alt="">
+                    <div class="ovely">
+                        <h4>Abaya</h4>
+                        <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img" data-name="website">
+                    <img src="imgs/abaya-9.jpg" alt="">
+                    <div class="ovely">
+                        <h4>Gaon</h4>
+                        <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img"  data-name="ios">
+                    <img src="imgs/stolar-10.webp" alt="">
+                    <div class="ovely">
+                        <h4>Stollar</h4>
+                        <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img" data-name="android">
+                    <img src="imgs/irani-6.jpg" alt="">
+                    <div class="ovely">
+                        <h4>Abaya</h4>
+                        <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img" data-name="website">
+                    <img src="imgs/abaya-5.jpg" alt="">
+                    <div class="ovely">
+                        <h4>Gaon</h4>
+                        <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-img" data-name="website">
+                    <img src="imgs/abaya-10.jpg" alt="">
+                    <div class="ovely">
+                        <h4>Gaon</h4p>
+                            <p>Stylish Design</p>
+                        <div class="action-aria">
+                            <a href="" class="btn">Live Demo</a>
+                            <a href="" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+                
+             </div>
+        </div>
+    </section>
+    
+
+    
+</body>
+</html>
